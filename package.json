@@ -1,0 +1,29 @@
+{
+  "name": "faker-en",
+  "version": "1.0.0",
+  "description": "A much smaller version of faker-js that only supports english and also exports each generator individually so the entire package doesn't need to be bundled with projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abir-taheer/faker-en.git"
+  },
+  "keywords": [
+    "faker",
+    "english",
+    "typescript",
+    "js",
+    "node",
+    "generate",
+    "text",
+    "random"
+  ],
+  "author": "abir-taheer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abir-taheer/faker-en/issues"
+  },
+  "homepage": "https://github.com/abir-taheer/faker-en#readme"
+}
