@@ -1,8 +1,10 @@
 {
   "name": "faker-en",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A much smaller version of faker-js that only supports english and also exports each generator individually so the entire package doesn't need to be bundled with projects",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
