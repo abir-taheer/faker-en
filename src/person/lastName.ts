@@ -994,4 +994,4 @@ export const allLastNames = [
   "Tang",
 ];
 
-export const getLastName = () => getOne(allLastNames);
+export const lastName = () => getOne(allLastNames);
