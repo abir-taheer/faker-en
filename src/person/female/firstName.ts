@@ -1003,4 +1003,4 @@ export const allFemaleFirstNames = [
   "Zuri",
 ];
 
-export const getFemaleFirstName = () => getOne(allFemaleFirstNames);
+export const getFemaleFirstName = () => arrayElement(allFemaleFirstNames);
