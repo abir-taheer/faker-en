@@ -1,3 +1,3 @@
-export const getOne = <T>(list: T[]) => {
+export const arrayElement = <T>(list: T[]) => {
   return list[Math.floor(Math.random() * list.length)];
 };

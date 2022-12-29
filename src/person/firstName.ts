@@ -1,7 +1,7 @@
 import { Gender } from "../types/person";
 import { getFemaleFirstName } from "./female/firstName";
 import { getMaleFirstName } from "./male/firstName";
-import { getGender } from "../utils/getGender";
+import { gender as getGender } from "../utils/gender";
 
 export const firstName = (gender?: Gender) => {
   const g = getGender(gender);

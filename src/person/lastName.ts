@@ -1,4 +1,4 @@
-import { getOne } from "../utils/getOne";
+import { arrayElement } from "../utils/arrayElement";
 
 export const allLastNames = [
   "Smith",

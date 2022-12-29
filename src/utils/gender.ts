@@ -1,6 +1,6 @@
 import { Gender } from "../types/person";
 
-export const getGender = (def?: Gender) => {
+export const gender = (def?: Gender) => {
   if (def) {
     return def;
   }
