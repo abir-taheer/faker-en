@@ -1,5 +1,5 @@
-import { arrayElement } from "utils";
-import { randomNumber } from "utils/randomNumber";
+import { arrayElement } from "../utils";
+import { randomNumber } from "../utils/randomNumber";
 
 export const ValidAreaCodes = [
   "205",
