@@ -198,3 +198,50 @@ import { shuffle } from "faker-en/utils/shuffle";
 ##### description
 
 Randomly shuffles the order of elements of an array.
+
+
+
+### `word`
+
+This submodule contains methods for generating random words:
+
+```typescript
+import { word, noun, verb } from "faker-en/word";
+
+const randomWord = word();
+const item = noun();
+const action = verb();
+```
+
+
+#### `noun`
+
+#### singular import
+
+```typescript
+import { noun } from "faker-en/word/noun";
+```
+
+##### parameters
+
+This function accepts no parameters
+
+#### description
+
+Generates a random noun
+
+#### `verb`
+
+##### singular import
+
+```typescript
+import { verb } from "faker-en/word/verb";
+```
+
+##### parameters
+
+This function accepts no parameters
+
+##### description
+
+Generates a random verb.

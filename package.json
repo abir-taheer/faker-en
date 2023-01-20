@@ -1,6 +1,6 @@
 {
   "name": "faker-en",
-  "version": "1.3.1",
+  "version": "2.3.1",
   "description": "A much smaller version of faker-js that only supports english and also exports each generator individually so the entire package doesn't need to be bundled with projects",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/abir-taheer/faker-en/issues"
   },
-  "homepage": "https://github.com/abir-taheer/faker-en#readme"
+  "homepage": "https://github.com/abir-taheer/faker-en#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
 }
